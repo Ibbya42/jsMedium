@@ -52,3 +52,38 @@
 
 // console.log(arrSum([2,2,2]))
 // console.log(arrSum([100,200,500]))
+
+// // Question 5
+// // Add up numbers from a single number 
+
+// function progressiveSum(num){
+//     let sum = 0;
+//     // Starts the loop from 1 to take away the zero value
+//     // Put <= on the num to get the final value of the array 
+//     for (let i = 1 ; i <= num ; i++){
+//         sum = sum + i
+//     }
+//     return sum;
+// }
+
+// console.log(progressiveSum(3))
+// console.log(progressiveSum(4))
+
+// // Question 6
+// // Calculate time
+
+// function calcTime(time){
+// // Math.floor is used to remove the decimal by rounding off the number
+// let timeMinutes = Math.floor(time /60)
+// let timeSeconds =  time % 60;
+
+// // If the lenght of minutes equals to 1 = add a zero 
+// // infront of the minutes section 
+// if (timeMinutes.toString().length === 1){
+//     timeMinutes = '0' + timeMinutes
+// }
+
+// return timeMinutes + ":" + timeSeconds;
+// }
+
+// console.log(calcTime(70))
