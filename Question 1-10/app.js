@@ -90,3 +90,57 @@
 
 // // Question 7
 // // Find Largest Number 
+
+// function getMax (arr) { 
+//     // Create max variable 
+//     let max = arr[0];
+//     // Loop between every element in the array 
+//     for (let i = 0; i < arr.length; i++){
+//         // Loop through every element and if the element is bigger than 
+//         // The number on the array it will be entered onto max 
+//         if (arr[i] > max){
+//             max = arr[i]
+//         }
+//     }
+//     return max;
+// }
+
+// console.log(getMax([5,100,0]))
+// console.log(getMax([1,2,3]))
+
+// // Question 8
+// // Reverse String 
+
+// Incrementing Method 
+
+// function reverseString(string){
+//     let stringReversed = "";
+
+//     for (let i = 0 ; i  < string.length ; i++){
+//         stringReversed = string[i] + stringReversed;
+//     }
+
+//     return stringReversed
+// }
+
+// console.log(reverseString("Ibrahim"))
+
+// Decrementing Method 
+
+// function reverseString (string){
+//     // Create a new string variable that will hold the reverse method
+//     let newString = "";
+
+//     // Loop through the whole lenght of the string 
+//     // As long as the loop is greater than 0 it will keep running 
+//     // It will always decrement by -1 
+//     for ( let i = string.length - 1 ; i >= 0 ; i--){
+//         newString += string[i];
+//     }
+
+//     // Return the new string after looping
+//     return newString;
+// }
+
+// console.log(reverseString("abc"))
+// console.log(reverseString("Ibrahim"))
