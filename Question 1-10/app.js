@@ -87,3 +87,6 @@
 // }
 
 // console.log(calcTime(70))
+
+// // Question 7
+// // Find Largest Number 
