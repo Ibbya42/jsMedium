@@ -120,7 +120,7 @@
 //         stringReversed = string[i] + stringReversed;
 //     }
 
-//     return stringReversed
+//     return stringReversed;
 // }
 
 // console.log(reverseString("Ibrahim"))
