@@ -144,3 +144,7 @@
 
 // console.log(reverseString("abc"))
 // console.log(reverseString("Ibrahim"))
+
+// // Question 9
+// // Turn every element in an array to 0 
+
