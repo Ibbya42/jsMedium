@@ -173,3 +173,36 @@
 // }
 
 // console.log(convertToZero([1,2,3,4,5]))
+
+
+// // Question 10
+// // remove apples array 
+
+// function removeApples(arr){
+//     // Create a new variable that will hold the no apple element 
+//     let noApples = []
+//     // Loop through the remove apple array 
+//     for ( let i = 0 ; i < arr.length ; i++){
+//         // Check if the current element does not have apple 
+//        if (arr[i] !== 'Apple'){
+//         // Push the other elements into the no apples array 
+//         noApples.push(arr[i]);
+//        }
+//     }
+//     // Return the no apple 
+//     return noApples;
+// }
+
+// console.log(removeApples(['Banana', 'Apple' ,'Orange']))
+// console.log(removeApples(['Banana', 'Tomato' ,'Orange']))
+
+// Array Filter 
+// function removeApples(arr){
+//     // If the element is != to apple then remove it from the array 
+//    return arr.filter (elem => elem !== 'Apple')
+// }
+
+// console.log(removeApples(['Banana', 'Apple' ,'Orange']))
+// console.log(removeApples(['Banana', 'Tomato' ,'Orange']))
+
+
