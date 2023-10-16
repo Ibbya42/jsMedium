@@ -148,3 +148,28 @@
 // // Question 9
 // // Turn every element in an array to 0 
 
+// For Loop
+// function convertToZero(arr){
+//     for ( let i = 0 ; i < arr.length; i++){
+//         arr[i] = 0;
+//     }
+//     return arr;
+// }
+
+// console.log(convertToZero([1,2,3,4,5]))
+
+// // Fill 
+// function convertToZero(arr){
+//         return new Array(arr.length).fill(0)
+//     }
+
+// console.log(convertToZero([1,2,3,4,5]))
+
+// Mapping 
+// function convertToZero(arr){
+//     // Map will convert everything in the array into the value 
+//     // on the right side of this operations. 
+//     return arr.map(elem => 0)
+// }
+
+// console.log(convertToZero([1,2,3,4,5]))
