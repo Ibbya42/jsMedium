@@ -206,3 +206,21 @@
 // console.log(removeApples(['Banana', 'Tomato' ,'Orange']))
 
 
+// // Question 11
+// // Filter out Falsy Values
+
+// function filteroutFalsy(arr){
+//     return arr.filter (elem => !!elem === true)
+// } 
+
+// console.log(filteroutFalsy(['Tomato', 'Apple', 'Banana', false]));
+// console.log(filteroutFalsy(['Tomato', 'Apple', 0, false]));
+
+// // Question 12
+// // Truthy to True , Falsy to False
+
+// function convertToBoolean (arr){
+//     return arr.map (elem => !!elem)
+// }
+
+// console.log(convertToBoolean(['Ibby' , 0 , 'Test']))
